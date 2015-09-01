@@ -22,16 +22,15 @@ include('CardAwesome.php');
   <body>
 
     <!-- Cards example No 1 -->
-    <div class="padding">
+
     <?php
-    #$cardS = new CardSimple("Chris", "Lorem ispum dolor", "img/avatar.jpg");
-    #$cardS -> createCard("Create");
+    $cardS = new CardSimple("Chris", "Lorem ispum dolor", "img/avatar.jpg");
+    $cardS -> createCard("Create");
 
     $cardA = new CardAwesome("Chris", "Lorem ispum dolor Lorem ispum dolor Lorem ispum dolor Lorem ispum dolor", "img/avatar.jpg", "http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-65279.jpg");
     $cardA -> createCard("ADD");
      ?>
 
-   </div>
 
   </body>
   </html>
